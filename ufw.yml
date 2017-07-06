@@ -1,0 +1,5 @@
+---
+ - hosts:
+   tasks:
+   - name: enable port 80
+     ufw: port={{ port }} rule=allow
